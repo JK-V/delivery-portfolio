@@ -8,7 +8,7 @@ export default function Stats() {
           IMPACT LOG
         </span>
         <h2 className="mt-3 font-display font-bold text-2xl sm:text-3xl tracking-tight max-w-2xl">
-          Numbers from past engagements — replace with your own.
+          VelocityFoundry — Numbers from past engagements.
         </h2>
 
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6">

@@ -11,7 +11,7 @@ cd delivery-portfolio
 git init
 git add .
 git commit -m "Initial commit: delivery pipeline portfolio"
-gh repo create your-username/delivery-portfolio --public --source=. --push
+gh repo create velocityfoundry/delivery-portfolio --public --source=. --push
 # (or create the repo manually on github.com and follow its "push an
 # existing repository" instructions)
 ```
@@ -27,7 +27,7 @@ gh repo create your-username/delivery-portfolio --public --source=. --push
    - **Build command:** `npm run build`
    - **Output directory:** `dist`
 5. Click **Deploy**. In ~30–60 seconds you get a live URL like
-   `https://delivery-portfolio-yourname.vercel.app`.
+  `https://delivery-portfolio-velocityfoundry.vercel.app`.
 6. Every future `git push` to your main branch auto-redeploys.
 7. Optional: **Settings → Domains** to attach a custom domain for free
    (you still pay your domain registrar, not Vercel).
@@ -85,8 +85,8 @@ built `dist/` folder via GitHub Actions.
            uses: actions/deploy-pages@v4
    ```
 
-2. Since the site will live at `https://your-username.github.io/delivery-portfolio/`
-   (a subpath, not the domain root), add a `base` to `vite.config.js`:
+2. Since the site will live at `https://velocityfoundry.github.io/delivery-portfolio/`
+  (a subpath, not the domain root), add a `base` to `vite.config.js`:
 
    ```js
    export default defineConfig({
