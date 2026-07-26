@@ -27,7 +27,7 @@ export default function Contact() {
               Let's ship your pipeline.
             </h2>
             <p className="mt-4 text-text-muted leading-relaxed max-w-md">
-              Tell me where releases are slow, risky, or unpredictable. I'll
+              Tell us where releases are slow, risky, or unpredictable. We will
               reply with a straight read on where the bottleneck actually is.
             </p>
 

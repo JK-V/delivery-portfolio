@@ -4,17 +4,17 @@
 // ─────────────────────────────────────────────────────────────
 
 export const profile = {
-  name: "Your Name",
-  role: "Software Delivery & Engineering Process Consultant",
+  name: "VelocityFoundry",
+  role: "Software Delivery & Engineering Process Consultancy",
   location: "Available for remote & on-site engagements",
   tagline:
-    "I help organizations turn shipping software into a predictable, boring, repeatable pipeline — instead of a monthly fire drill.",
+    "We help organizations turn shipping software into a predictable, boring, repeatable pipeline — instead of a monthly fire drill.",
   summary:
-    "I set up scalable engineering processes, mobile development practices, and automation frameworks for organizations that need to move faster without breaking things. That means new project setup, Agile team operating models, CI/CD, quality engineering, and delivery optimization — built so releases stop being an event and start being a non-event.",
-  email: "you@example.com",
+    "We set up scalable engineering processes, mobile development practices, and automation frameworks for organizations that need to move faster without breaking things. That means new project setup, Agile team operating models, CI/CD, quality engineering, and delivery optimization — built so releases stop being an event and start being a non-event.",
+  email: "contact@velocityfoundry.com",
   socials: [
-    { label: "LinkedIn", href: "https://linkedin.com/in/yourprofile" },
-    { label: "GitHub", href: "https://github.com/yourhandle" },
+    { label: "LinkedIn", href: "https://linkedin.com/company/velocityfoundry" },
+    { label: "GitHub", href: "https://github.com/velocityfoundry" },
     { label: "Resume", href: "/resume.pdf" },
   ],
 };
