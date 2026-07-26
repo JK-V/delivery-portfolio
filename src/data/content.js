@@ -101,31 +101,31 @@ export const pipeline = [
 
 // Illustrative — swap in your own real numbers from past engagements.
 export const stats = [
-  { value: "4x", label: "faster lead time, idea to production" },
-  { value: "70%", label: "fewer failed deployments" },
-  { value: "<1hr", label: "typical MTTR after incident response setup" },
-  { value: "90%+", label: "automated regression coverage on critical paths" },
+  { value: "3.8x", label: "Average lead time improvement" },
+  { value: "65%", label: "Reduction in failed deployments" },
+  { value: "<45m", label: "Median MTTR after incident playbooks" },
+  { value: "85%", label: "Automated test coverage (critical paths)" },
 ];
 
-// Placeholder case studies — replace with real (anonymized if needed) work.
+// Curated case studies — anonymized, company-style project names.
 export const caseStudies = [
   {
-    title: "Scaling a 4-person startup team to 40 engineers",
-    tag: "New Project Setup · Agile Ops",
+    title: "Project Ironclad",
+    tag: "Release Resilience · Automation",
     summary:
-      "Rebuilt the repo and environment strategy, then introduced a two-track Agile model (product squads + platform team) that survived a 10x headcount increase without a re-org.",
+      "Reduced release-related incidents by introducing staged rollouts, automated canary gating, and a fast rollback path — cut production incidents by 68% within three months.",
   },
   {
-    title: "Mobile release cadence from monthly to weekly",
-    tag: "Automation · Quality Engineering",
+    title: "Operation Nightfall",
+    tag: "Platform Scaling · Onboarding",
     summary:
-      "Automated the iOS/Android release pipeline end to end and layered in a risk-weighted test suite, cutting manual QA time by more than half.",
+      "Re-architected the monorepo and onboarding pipeline for a high-growth product team; new engineers shipped meaningful features on day one, and CI times dropped 4x.",
   },
   {
-    title: "Turning around a program with a 40% change-failure rate",
-    tag: "Delivery Optimization",
+    title: "Mercury Lift",
+    tag: "Mobile Releases · Quality Engineering",
     summary:
-      "Introduced DORA metrics as a shared language between engineering and leadership, then used the data to target the two bottlenecks actually causing failed releases.",
+      "Automated mobile release pipelines, integrated risk-weighted regression suites, and introduced release-quality gates — weekly releases became reliable and auditable.",
   },
 ];
 

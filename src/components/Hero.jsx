@@ -32,6 +32,12 @@ export default function Hero() {
           $ ./run-delivery-audit --org=yours
         </p>
 
+        <div className="flex items-center gap-3">
+          <span className="font-mono text-sm text-pass font-semibold">
+            {profile.name}
+          </span>
+        </div>
+
         <h1 className="font-display font-extrabold text-4xl sm:text-6xl leading-[1.05] tracking-tight max-w-3xl">
           {profile.tagline}
         </h1>

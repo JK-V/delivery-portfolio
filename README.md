@@ -1,4 +1,4 @@
-# Delivery Pipeline Portfolio
+# VelocityFoundry — Delivery Pipeline Portfolio
 
 A one-page site built for a software delivery / engineering process consultant
 profile: new project setup, Agile operating models, CI/CD, quality
