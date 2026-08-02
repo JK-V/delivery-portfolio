@@ -13,9 +13,11 @@ static site, fast to run, free to host.
 
 ## Hero intro video
 
-<p align="center">
-  <video src="./velocityFoundary_intro.mp4" controls muted playsinline width="100%"></video>
-</p>
+Open the actual intro video file here:
+
+- [Watch velocityFoundary_intro.mp4](./velocityFoundary_intro.mp4)
+
+This is the reliable README approach because GitHub does not reliably render local MP4 files inline in markdown previews. A direct link will open the media in the browser and play correctly.
 
 ---
 
