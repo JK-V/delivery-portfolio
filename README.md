@@ -11,6 +11,12 @@ stages: **Setup → Agile Ops → Automate → Verify → Release**.
 Stack: **React 19 + Vite 8 + Tailwind CSS v4**. No backend, no database —
 static site, fast to run, free to host.
 
+## Hero intro video
+
+<p align="center">
+  <video src="./velocityFoundary_intro.mp4" controls muted playsinline width="100%"></video>
+</p>
+
 ---
 
 ## 1. Project structure
